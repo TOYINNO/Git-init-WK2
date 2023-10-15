@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <table border="1">
+        <caption><strong>Food Menu</strong></caption>
+        <!-- th>tr>th*4 -->
+        <thead>
+            <tr>
+                <th scope="col">Days</th>
+                <th scope="col">Breakfast</th>
+                <th scope="col">Lunch</th>
+                <th scope="col">Dinner</th>
+            </tr>
+        </thead>
+        <!-- tbody>(tr>th+td*3)*2 -->
+        <tbody>
+            <tr>
+                <th>Monday</th>
+                <td>Bread and tea</td>
+                <td>Garri and nuts</td>
+                <td><em>Eba </em>and <em>egusi soup</em></td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td>Cornflakes</td>
+                <td>Rice and Stew</td>
+                <td>Beans Porridge</td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td rowspan="2">Noodles</td>
+                <td>Yam and egg</td>
+                <td>Okra soup</td>
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <!-- <td>Plantain and vegetables</td> -->
+                <td>Chicken pie</td>
+                <td>Yam porridge</td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td>Pap and Moinmoin</td>
+                <td><em>Akara</em> and garri</td>
+                <td><em>Ogbono</em> soup</td>
+            </tr>
+            <tr>
+                <th>Saturday</th>
+                <td>Noodles</td>
+                <td>Jollof rice</td>
+                <td>Beans porridge</td>
+            </tr>
+            <tr>
+                <th>Sunday</th>
+                <!-- <td>Bread and tea</td> -->
+                <!-- <td>Catfish peppersoup</td> -->
+                <td colspan="3">Fried rice and chicken</td>
+            </tr>
+        </tbody>
+<tfoot><td>For the month of October</td></tfoot>
+    </table>
+</body>
+</html>

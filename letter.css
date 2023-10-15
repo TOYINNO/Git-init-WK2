@@ -1,0 +1,13 @@
+body>address,cite{
+    color: blue;
+}
+body>h2{
+    color: crimson;
+}
+body>h2+p{
+    background-color: magenta;
+}
+ul>li{
+    background-color: blue;
+}
+dd>dl{background-color: cyan;}

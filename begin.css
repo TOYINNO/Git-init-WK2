@@ -1,0 +1,21 @@
+body{
+    background-color: azure;
+}
+*{
+    color: red;
+}
+p{
+    color: green;
+}
+ main p{
+    color: aqua;
+ }
+ h2, h3{background-color: beige;
+ }
+ h2 + h3{
+    background-color: blueviolet;
+ }
+ h3~h4{
+    background-color: antiquewhite;
+ }
+

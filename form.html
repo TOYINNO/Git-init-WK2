@@ -8,16 +8,22 @@
 <body>
     <main>
         <h1>Create Account</h1>
-        <!-- ul>li*10 -->
+       
         <form>
+             <!-- ul>li*10 -->
             <ul>
                 
-            </form>
-            <li><label for="fnmae">Full Name</label><br>
-                <input type="text" name="fnmae" id="fnmae"placeholder="Enter your full name" required></li>
             
-                <li><label for="DOB">Date of Birth</label><br>
-                    <input type="date" name="dob" id="dob" required></li>
+            <li>
+                <label for="fnmae">Full Name</label><br>
+                <input type="text" name="fnmae" id="fnmae"placeholder="Enter your full name" required>
+            </li>
+            
+                <li>
+                    <label for="DOB">Date of Birth</label><br>
+                    <input type="date" name="dob" id="dob" required>
+                </li>
+
                 <li>
                     <p>Gender</p>
                     <input type="radio" name="gender" id="male">
@@ -28,6 +34,8 @@
                     
                     <input type="radio" name="gender" id="none">
                     <label for="none">none</label>
+                </li>
+
                     <li>
                         <label for="Home address">Home Address</label> <br>
                         <textarea name="Home address" id="fnmae" cols="40" rows="2"></textarea>
@@ -42,9 +50,11 @@
                             <input type="radio" name="Marital Status" id="Divorced">
                             <label for="Divorced">Divorced</label>
                             <input type="radio" name="Marital Status" id="Widowed">
-                            <label for="Widowed">Widowed</label></li>
+                            <label for="Widowed">Widowed</label>
+                        </li>
                 
-                <li><span>State of Origin</span>
+                <li>
+                    <span>State of Origin</span>
                     <select> 
                     <optgroup label="South West">
                         <option value="lg">Lagos</option>
@@ -62,9 +72,15 @@
                         <option value="Cr">Cross River</option>
                     </optgroup>
                     
-                    <optgroup label="North">
+                    <optgroup label="North-Central">
                         <option value="Plateau">Plateau</option>
+                        <option value="be">Benue</option>
+                        <option value="ko">Kogi</option>
+                        <option value="Kw">Kwara</option>
+                        <option value="Na">Nasarawa</option>
+                        <option value="Ni">Niger</option>
                     </optgroup>
+
                 </select>
                     
                 </li>
@@ -90,9 +106,12 @@
                     <input type="checkbox" name="accept2" id="accept2">
                     <label for="accept2">Subscribe to our weekly newsletter</label>
                 </li>
-                <li><input type="submit" value="Subscribe"></li>
+                <li>
+                    <input type="submit" value="Subscribe">
+                </li>
             </ul>
 <p>&copy; &euro; &trade;</p>
+</form>
     </main>
 </body>
 </html>
